@@ -10,6 +10,7 @@ public class DemoApplication {
         test();
         sayMyName();
         sayMyNameTwice();
+        sayHowOldAreU();
         SpringApplication.run(DemoApplication.class, args);
     }
 
@@ -23,6 +24,10 @@ public class DemoApplication {
 
     private static void sayMyNameTwice() {
         System.out.println("I'm a demo project");
+    }
+
+    private static void sayHowOldAreU() {
+        System.out.println("How Old Are U");
     }
 
 }
