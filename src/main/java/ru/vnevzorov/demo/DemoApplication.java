@@ -8,12 +8,21 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         test();
-
+        sayMyName();
+        sayMyNameTwice();
         SpringApplication.run(DemoApplication.class, args);
     }
 
     private static void test() {
         System.out.println("Hello, World!");
+    }
+
+    private static void sayMyName() {
+        System.out.println("I'm a demo project");
+    }
+
+    private static void sayMyNameTwice() {
+        System.out.println("I'm a demo project");
     }
 
 }
