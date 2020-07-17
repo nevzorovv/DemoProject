@@ -9,6 +9,8 @@ public class DemoApplication {
     public static void main(String[] args) {
         test();
         sayMyName();
+        sayMyName();
+        sayMyName();
         sayMyNameTwice();
         sayHowOldAreU();
         SpringApplication.run(DemoApplication.class, args);
